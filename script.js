@@ -3,13 +3,14 @@ const layout = document.getElementsByClassName('layout')[0];
 
 body.appendChild(layout);
 
-console.log("test")
-
 for (let grid = 0; grid < 256; grid++) {
     const board = document.createElement('div');
-    board.className = "base-board";
-    board.textContent = "box"
-    console.log("lol");
+    board.className = "base";
+    board.style.border = "black solid 1px"
     layout.appendChild(board);
+    board.addEventListener('mouseover', () => {
+        board.classList.add('hover');
+    })
 }
+
 
