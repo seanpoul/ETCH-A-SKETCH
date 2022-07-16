@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    /* border: green solid 2px; */
+    height: 90vh;
+    width: auto;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 640px;
+    /* border : red solid 2px; */
+}
+
+.base-board {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    /* border: blue solid 2px; */
+}
