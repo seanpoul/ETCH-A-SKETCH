@@ -18,9 +18,6 @@ body {
 
 .base {
     display: flex;
-    height: calc(70vw/16);
-    width: calc(100%/16);
-    max-height: calc(600px/16);
 }
 
 .hover {
